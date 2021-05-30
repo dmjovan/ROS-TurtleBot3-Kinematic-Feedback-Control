@@ -5,7 +5,7 @@
 
 # Ucitavanje potrebnih biblioteka i struktura poruka
 import rospy
-from domaci_2.srv import komanda, komandaResponse
+from ROS_TurtleBot3_Kinematic_Feedback_Control.srv import komanda, komandaResponse
 from std_msgs.msg import String
 
 # Inicijalizacija globalnog publisher-a na topic /komande

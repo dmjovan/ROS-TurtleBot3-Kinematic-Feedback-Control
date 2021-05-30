@@ -5,7 +5,7 @@
 
 # Ucitavanje potrebnih biblioteka i struktura poruka
 import rospy
-from domaci_2.srv import izbor_moda, izbor_modaResponse
+from ROS_TurtleBot3_Kinematic_Feedback_Control.srv import izbor_moda, izbor_modaResponse
 from std_msgs.msg import String
 
 # Kreiranje jednog globalnog publisher-a na topic /mod_robota 
